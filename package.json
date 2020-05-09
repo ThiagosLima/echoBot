@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "This is a study project of a telegram bot",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagosLima/echoBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagosLima/echoBot/issues"
+  },
+  "homepage": "https://github.com/ThiagosLima/echoBot#readme",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  }
+}
