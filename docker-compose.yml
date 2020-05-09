@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+  bot:
+    build:
+      context: .
+      target: dev
+    env_file: .env
+    volumes:
+      - /app/node_modules
+      - .:/app
