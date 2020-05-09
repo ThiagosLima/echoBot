@@ -13,5 +13,4 @@ CMD [ "node", "bot.js" ]
 FROM prod as dev
 ENV NODE_ENV=development
 RUN npm install --only=development
-CMD [ "node", "bot.js" ]
-# CMD [ "./node_modules/nodemon/bin/nodemon.js", 'bot.js' ]
+CMD [ "./node_modules/nodemon/bin/nodemon.js", "bot.js" ]
